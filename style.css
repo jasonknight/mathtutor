@@ -1,0 +1,21 @@
+div.control-tab {
+    display: none;
+}
+ul.control-list li {
+    float: left;
+    margin-right: 10px;
+    font-size: 1.2em;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ul.control-list li:hover {
+    background: grey;
+}
+.clear {
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
