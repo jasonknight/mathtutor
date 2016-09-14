@@ -1,6 +1,11 @@
 div.control-tab {
     display: none;
 }
+@media print {
+    #control_panel {
+        display: none;
+    }
+}
 ul.control-list li {
     float: left;
     margin-right: 10px;
@@ -18,4 +23,23 @@ ul.control-list li:hover {
     clear: both;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+input.green {
+    background-color: #a6ff4d;
+}
+input.red {
+    background-color: #ff4d4d;
+}
+th, td, input, label {
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+body {
+    font-size: 1.6em;
 }
